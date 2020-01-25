@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav__bar_child{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__bar_child__item{
+    width: 30%;
+}
+.nav__bar_child__item > h3{
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav__bar_child__right{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__bar_child__right > button{
+    width: 80px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nav__bar_child__right > button:hover{
+    cursor: pointer;
+    background: lightcoral;
+    color: black;
+}
+
+.preview_child{
+    height: 500px;
+    background-image: url("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-41.jpg");
+    display: flex;
+    justify-content: flex-start;
+}
+
+.preview__text{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview__text__item {
+    height: 30%;
+}
+
+.preview__text__item > span {
+    font-size: 50px;
+    color: #046cbe;
+}
+
+.preview__text__item > blockquote {
+    text-align: justify;
+    color: #8e1717;
+}
+
+.preview__text__item > button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: orange;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.preview__text__item > button:hover{
+    color: red;
+    cursor: pointer;
+    background: #4328fa ;
+
+}
+
+.information_child{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 700px;
+}
+
+.information__item{
+    height: 30%;
+}
+
+.information__item__one {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.information__item__one > div > img {
+    height: 100px;
+    width: 100px ;
+}
+
+.information__item__one__item{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information__item__one__item > hr {
+    width: 100px;
+    margin: 5px;
+}
+
+.information__item__one__item > p{
+    text-align: justify;
+    width: 250px;
+}
+
+.information__item__two{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information__item__two__item{
+    height: 100%;
+}
+
+.information__item__two__item > hr{
+   border: 1px solid gray;
+}
+
+.information__item__two__item > button{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: 14px;
+    left: 43%;
+
+}
+
+.information__item__two__item > button:hover{
+    cursor: pointer;
+    color: red;
+    background: #046cbe;
+}
+
+.information__item__three{
+    display: flex;
+    justify-content: space-around;
+}
+
+.information__item__three__item{
+    width: 20%;
+}
+
+.information__item__three__item > img {
+    width: 100%;
+    height: 100%;
+}
+
+.information__item__three__item > p{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    border: 1px solid crimson;
+    position: relative;
+    bottom: 3px;
+    line-height: 30px;
+}
+
+.information__item__three__item >p:hover{
+    cursor: pointer;
+    background: crimson;
+    color: #ffffff;
+}
+
+
